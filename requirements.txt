@@ -1,0 +1,6 @@
+pyenchant
+language-tool-python
+Pillow
+PyMuPDF
+python-docx
+ezodf

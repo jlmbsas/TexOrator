@@ -1,0 +1,9 @@
+# Entornos virtuales
+venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales de la app
+temp_playback.wav

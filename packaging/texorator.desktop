@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=TexOrator
+Comment=Convierte texto a voz desde documentos PDF, DOCX y ODT
+GenericName=Lector de Textos
+
+# Comando que se ejecutará. El .deb debe instalar tu app aquí.
+Exec=/usr/bin/texorator
+
+# Ruta donde el .deb instalará el icono.
+Icon=/usr/share/pixmaps/texorator-icono.png
+
+Terminal=false
+Type=Application
+Categories=Utility;AudioVideo;Audio;TextEditor;

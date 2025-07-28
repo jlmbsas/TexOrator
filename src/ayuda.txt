@@ -1,0 +1,85 @@
+          Guía de Usuario - TexOrator
+==================================================
+
+Bienvenido a TexOrator, la nueva versión mejorada que reemplaza a los anteriores.
+
+Esta guía contiene la información esencial para usar la aplicación.
+
+
+--- Función Principal: Convertir Texto a Audio ---
+
+El objetivo principal de TexOrator es convertir un texto escrito en un archivo de audio hablado. El proceso es simple:
+
+1. Escribe en el editor o carga un texto desde un archivo.
+2. Elige el motor de voz y la voz específica que prefieras en los menús desplegables.
+3. Presiona "Leer Texto" para escucharlo o "Guardar Audio" para crear un archivo MP3 o WAV.
+
+
+--- Para qué sirve cada botón ---
+
+* Cargar Archivo:   Abre y lee el texto de archivos PDF, DOCX y ODT.
+* Guardar Edición:  Guarda el texto del editor en un archivo de formato .ODT.
+* Guardar Audio:    Convierte el texto en un archivo .MP3 o .WAV y lo guarda.
+
+* Leer Texto:       Genera el audio del texto actual y lo reproduce.
+* Play (▶):         Inicia o reanuda la reproducción del audio ya generado.
+* Pausa (⏸):        Pausa la reproducción en el punto actual.
+* Detener (⏹):      Detiene la reproducción y la reinicia desde el principio.
+
+* Limpiar:          Borra todo el texto del editor.
+
+
+--- Motores y Voces: Personaliza tu Audio ---
+
+TexOrator te permite elegir entre diferentes motores y voces para generar el audio:
+
+* Motor:
+  - Piper TTS (Alta Calidad): Ofrece las voces más naturales y fluidas. Permite cargar modelos de voz personalizados.
+  - Pico TTS (Natural): Una voz de buena calidad que suele venir preinstalada en Linux.
+  - eSpeak-NG (Robótica): Una voz más sintética pero muy rápida y con muchas variantes.
+
+* Voz: Este menú cambia según el motor que elijas. Para Piper, aquí aparecerán tanto la voz por defecto como las que tú hayas cargado.
+
+
+--- Cómo Añadir Nuevas Voces (Piper TTS) ---
+
+Puedes expandir enormemente las capacidades de TexOrator añadiendo nuevas voces de alta calidad. Sigue estos pasos:
+
+1. Ve a la pestaña "Gestionar Modelos Piper" en la aplicación.
+
+2. Haz clic en el enlace azul (https://rhasspy.github.io/piper-samples/) para ir al catálogo oficial de voces.
+
+3. Una vez allí, elige la voz que quieras y pulsa "Download". Esto te llevará a otra página donde debes descargar DOS archivos:
+   - El modelo de voz, que termina en .onnx
+   - El archivo de configuración, que termina en .onnx.json
+
+4. Guarda AMBOS archivos juntos en la misma carpeta en tu ordenador.
+
+5. De vuelta en la aplicación, en la misma pestaña de "Gestionar Modelos Piper", haz clic en el botón "Cargar nuevo modelo (.onnx)...".
+
+6. Selecciona ÚNICAMENTE el archivo .onnx que descargaste. El programa encontrará el archivo .json automáticamente.
+
+7. ¡Listo! El modelo se cargará y aparecerá como una nueva opción en el menú desplegable "Voz" de la pestaña "Principal" cuando el motor "Piper TTS" esté seleccionado.
+
+
+--- Cómo usar el corrector ---
+
+Mientras escribes, la aplicación buscará errores y los subrayará con una línea roja.
+
+Para corregir un error:
+1. Haz clic con el BOTÓN DERECHO del ratón sobre la palabra o frase subrayada.
+2. Aparecerá un menú con sugerencias. Haz clic en la que quieras usar y el texto se corregirá automáticamente.
+3. Si la palabra marcada es correcta (un nombre, por ejemplo), puedes seleccionar "Añadir al diccionario" para que no vuelva a marcarla.
+
+
+--- Requerimientos Mínimos ---
+
+* Sistema Operativo: Linux (distribuciones como Ubuntu 20.04+, Debian 10+, Mint 20+, etc.).
+* Procesador:        CPU de doble núcleo a 1.5 GHz.
+* Memoria RAM:       4 GB (2 GB como mínimo absoluto).
+* Espacio en Disco:  500 MB de espacio libre.
+
+
+--- Créditos ---
+
+Aplicación diseñada y desarrollada por Jose Luis Mena con la asistencia de IA (Gemini).
